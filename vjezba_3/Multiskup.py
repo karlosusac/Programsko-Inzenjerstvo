@@ -24,7 +24,7 @@ class MultiSkup():
     def __str__(self):
         output = []
         for key, value in self.__multiSkup.items():
-            output.append("%r: %r" % (key, value))
+            output.append("%r*%r" % (key, value))
         return "{{" + ", ".join(output) + "}}"
 
     #-------------------------------------------------------------------------------------
